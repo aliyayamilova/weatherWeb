@@ -1,0 +1,14 @@
+
+tasks:
+  - name: Resolve dependencies
+    init: pip3 install pywebio
+    command: python main.py
+
+ports:
+  - port: 3000
+    onOpen: open-preview
+
+vscode:
+  extensions:
+    - ms-python.python
+    - alexcvzz.vscode-sqlite
