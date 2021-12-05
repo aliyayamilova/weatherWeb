@@ -3,7 +3,7 @@ tasks:
   - name: Resolve dependencies
     init: |
       pip3 install pywebio
-      pip3 install PIL
+      pip3 install pillow
     command: python main.py
 
 ports:
