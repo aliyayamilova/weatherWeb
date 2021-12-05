@@ -77,7 +77,7 @@ def home_page():
     init_js_cookie_io()
     set_user_from_cookie()
 
-    im = open_image("utils\pogoda.png")
+    im = open_image("https://i.ibb.co/ctJqGN5/pogoda.png")
 
     if(page_globals['current_user'] == None):
         go_app('auth_page', new_window=False)
