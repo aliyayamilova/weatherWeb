@@ -40,7 +40,7 @@ def auth_page():
     remove_all_cookies()
     show_message()
 
-    im = open_image("utils\pogoda_auth.png")
+    im = open_image("https://i.ibb.co/fr9VLrz/pogoda-auth.png")
     centered_container(put_column([put_image(im)]))
     
     put_column([
