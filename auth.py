@@ -39,9 +39,8 @@ def auth_page():
     redirect()
     remove_all_cookies()
     show_message()
-
-    im = open_image("https://i.ibb.co/fr9VLrz/pogoda-auth.png")
-    centered_container(put_column([put_image(im)]))
+    
+    centered_container(put_column([put_image("https://i.ibb.co/fr9VLrz/pogoda-auth.png")]))
     
     put_column([
         put_input('username', label='Логин'),
