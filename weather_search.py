@@ -27,7 +27,7 @@ def back():
 
 
 def weather_search_page():
-    im = open_image("utils\pogoda_gorod.png")
+    im = open_image("https://i.ibb.co/3TtX8jm/pogoda-gorod.png")
 
     put_row(
             [put_image(im), 
