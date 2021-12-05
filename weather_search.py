@@ -27,10 +27,9 @@ def back():
 
 
 def weather_search_page():
-    im = open_image("https://i.ibb.co/3TtX8jm/pogoda-gorod.png")
 
     put_row(
-            [put_image(im), 
+            [put_image("https://i.ibb.co/3TtX8jm/pogoda-gorod.png"), 
                 None, centered_container(put_column([
                     put_button(label="На главную", onclick=back, color="warning"),
                     put_button(label="Выйти", onclick=logout, color="warning")
