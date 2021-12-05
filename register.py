@@ -32,7 +32,7 @@ def to_login():
 
 # основной код страницы регистрации
 def register_page():
-    im = open_image("utils\pogoda_reg.png")
+    im = open_image("https://i.ibb.co/3TtX8jm/pogoda-gorod.png")
     centered_container(put_column([put_image(im)]))
     
     init_js_cookie_io()
