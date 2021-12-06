@@ -58,22 +58,6 @@ def remove_cookie(key):
     run_js('deleteCookie(key)', key=key)
 
 
-# сохранить id записи в куки
-def save_current_record_id(id: int):
-    set_cookie(current_record_id, f'{id}')
-
-
-# получить id записи из куки
-def get_current_record_id():
-    id = get_cookie(current_record_id)
-    return None if id == None or id == '' else int(id)
-
-
-# удалить информацию о записи
-def remove_record_info():
-    remove_cookie(current_record_id)
-
-
 # сохранить id пользователя в куки
 def save_current_user_id(id: int):
     set_cookie(current_user_id, f'{id}')
